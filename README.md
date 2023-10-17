@@ -5,7 +5,7 @@
 
 ## Swift - UiKit
 * FireBase
-  * [FireBase 연동](https://github.com/alstjr7437/TIL/Swift/Uikit/FireBase.md)
+  * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/FireBase.md)
 * Login
 
 ## 학교 공부
