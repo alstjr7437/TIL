@@ -3,7 +3,7 @@
 ## 파이어베이스 프로젝트 설정 
 
 ### 앱 등록
-![Alt text](./img/image.png)
+<img src="./img/image.png" width="60%">     
 
 번들 ID : Project > Targets > Signing & Capabillities > Bundle Identifier
 
@@ -12,13 +12,13 @@
 --- 
 
 ### 구성 파일을 다운로드 후 프로젝트 파일에 넣기
-![Alt text](./img/image-2.png)
+<img src="./img/image-2.png" width="60%">     
 
-![Alt text](./img/image-3.png)
+<img src="./img/image-3.png" width="60%">     
 
 ---
 ### FireBase SDK 추가
-![Alt text](./img/image-5.png)
+<img src="./img/image-5.png" width="80%">     
 
 1. Project > Package Dependencies > +
 ![Alt text](./img/image-4.png) 
@@ -28,7 +28,8 @@
 
 ---
 ### 초기화 코드 추가
-![Alt text](./img/image-9.png)
+<img src="./img/image-9.png" width="60%">    
+ 
 1. Project 파일에 AppDelegate 이동
 ![Alt text](./img/image-8.png)
 2. import FireBaseCore 추가(에러가 나면 Package가 안들고 와진거)
