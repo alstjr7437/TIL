@@ -8,7 +8,7 @@
   * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/FireBase.md)
 * Login
 * 화면 전환
-  * [Present 방식](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Swift/Uikit/ScreenTransPresent.md)
+  * [Present 방식](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/ScreenTransPresent.md)
 
 ## 학교 공부
 * Linux System Programming
