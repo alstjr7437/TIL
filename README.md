@@ -4,7 +4,7 @@
 
 ## Swift
 * 기본 문법
-  * [Present 방식](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
+  * [선언 및 제어문](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
 
 
 ## Swift - UiKit
