@@ -161,3 +161,128 @@ let age1 = 10
 let age2 = 20
 let ageSame = age1 == age2 ? "same" : "not same"
 ```
+## 반복문
+### for
+```
+let numRange = 1...10
+// 1부터 10까지
+
+let a = 10
+for i in 0...a{
+    print("num is \(i)")
+}
+//0 부터 10까지 출력
+
+let ages = [3,20,60]
+for age in ages {
+    print("ages : \(age)")
+}
+// ages : 3 ...
+
+
+let language = ["한국":"KR", "미국":"EN", "일본":"JA"]
+for (key,value) in language{
+    print("\(key)의 언어 코드는 \(value)")
+}
+// 한국의 언어 코드는 KR ...
+```
+
+### for
+```
+var num = 1
+while num <= 20{
+    print(num)
+    num += 1
+}
+// 1부터 20까지 출력
+
+//break
+var count = 10
+while count > 0{
+    if count == 3 {
+        break
+    }
+    print(count)
+    count -= 1
+}
+// 10부터 4까지 출력
+```
+
+## 옵셔널
+값이 있을 수도 없을 수도 있는 경우
+```
+var name: String?
+let num: Int? = nil
+// Int는 nil 입력 안하면 error
+
+print(name)
+// nil
+// Expression implicitly coerced from 'String?' to 'Any' Warning
+
+name = "minseok"
+print(name)
+// minseok
+
+name = nil
+// Warning 없애기
+print(name ?? "없음")
+// 없음
+```
+
+## 타입 확인하기
+is, as, is?, as? 은 나중에
+```
+let char: Character = "A"
+ 
+print(char is Character)       
+// true
+print(char is String)          
+// false
+```
+## 타입 변환하기
+```
+let number = "10"
+
+print(Int(number))
+// 10
+print(type(of: number))
+// String
+print(type(of: Int(number)))
+// Int
+
+//아래와 같은 변수 자체를 문자열에서 숫자로 변경은 안됨
+var hello1 = "10"
+// hello1 = Int(10) // 에러 발생
+
+// 처음 선언시 타입 변경해주기
+let hello2 = Int("10")
+print(type(of: hello2))
+// Int
+
+// 내림으로 계산
+let hello = 10.99
+print(Int(hello))
+//10
+```
+
+## 절대값 구하기
+가능하면 abs 사용하기
+
+```
+let integer2 = Int(-15)
+print(type(of: integer2))
+// Int
+
+let magnitude = integer2.magnitude
+let absNum = abs(integer2)
+
+print(type(of: magnitude))
+// UInt
+print(type(of: absNum))
+// Int
+
+print(magnitude is Int)
+// False
+print(absNum is Int)
+// True
+```
