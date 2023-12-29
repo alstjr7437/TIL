@@ -16,8 +16,8 @@
 
 ## 학교 공부
 * Linux System Programming
-
-
+* 영상처리
+* 컴퓨터 구조
 
 ## 외부활동
 * [드림랜드톤](https://velog.io/@alstjr7437/DreamLandThon1)
