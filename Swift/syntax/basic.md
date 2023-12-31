@@ -267,6 +267,7 @@ print(Int(hello))
 
 ## 절대값 구하기
 가능하면 abs 사용하기
+magnitude는 타입이 바뀔 수도 있어서
 
 ```
 let integer2 = Int(-15)
