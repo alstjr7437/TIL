@@ -6,7 +6,6 @@
 * 기본 문법
   * [선언 및 제어문](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
 
-
 ## Swift - UiKit
 * FireBase
   * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/FireBase.md)
@@ -16,8 +15,8 @@
 
 ## 학교 공부
 * Linux System Programming
-
-
+* 영상처리
+* 컴퓨터 구조
 
 ## 외부활동
 * [드림랜드톤](https://velog.io/@alstjr7437/DreamLandThon1)
