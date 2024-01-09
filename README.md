@@ -5,6 +5,7 @@
 ## Swift
 * 기본 문법
   * [선언 및 제어문](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
+  * [함수 및 클래스](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic2.md)
 
 ## Swift - UiKit
 * FireBase
