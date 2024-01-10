@@ -6,7 +6,7 @@
 * 기본 문법
   * [var, let, list, dict, Enum, if, switch, for, while, Optional](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
   * [func, struct, class, Property](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic2.md)
-  * [Protocol, Delegation, Extension](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic2.md)
+  * [Protocol, Delegation, Extension](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic3.md)
 
 ## Swift - UiKit
 * FireBase
