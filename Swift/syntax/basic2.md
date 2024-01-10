@@ -1,6 +1,4 @@
-# 기본 문법2
-
-## 함수
+# 함수
 
 func 키워드 사용<br>
 () 안에 매개변수<br>
@@ -28,7 +26,7 @@ print(random)
 // 3
 ```
 
-## 클로저
+# 클로저
 클로저 : 이름이 존재하지 않는 함수<br>
 in 안에 함수 실행 내용 작성<br>
 배열, 딕셔너리 같은 컬렉션 타입과 함께, filter, map, reduce 메소드 사용시 자주 활용
@@ -72,7 +70,7 @@ let totalRevenue = revenues.reduce(0) { partialResult, next in
 // 600
 ```
 
-## 구조체
+# 구조체
 구조체는 원하는 데이터타입 만들때 사용<br>
 struct 사용
 ```
@@ -105,7 +103,7 @@ print(easyOnMe.isReleased)
 // true
 ```
 
-## 클래스
+# 클래스
 clss 이용해 선언
 ### 구조체와 비슷하지만 차이점
 1. 상속이 가능함(구조체 불가능)
@@ -178,7 +176,7 @@ print(jrDeveloper2.name)
 //    "Min"
 ```
 
-## Property(프로퍼티)
+# Property(프로퍼티)
 class, struct, 열거형에서 소속된 변수 및 속성을 불러오는 개념
 1. Stored Property(저장 프로퍼티)
     - 인스턴트의 변수나 상수 지칭
@@ -188,7 +186,7 @@ class, struct, 열거형에서 소속된 변수 및 속성을 불러오는 개�
 3. Type Property(타입 프로퍼티)
     - 특정 타입에 사용되는 프로퍼티(클래스 변수 등)
 
-### Stored Property(저장 프로퍼티)
+## Stored Property(저장 프로퍼티)
 1. 객체의 값(속성)을 저장하고 있는 기본적인 프로퍼티
 2. 객체가 생성이 되면 자동적으로 초기화
 3. 열거형(Enum)에는 지원 X
@@ -209,7 +207,7 @@ let rangeOfThreeItems = FixedLengthRange(firstValue: 0, length: 3)
 rangeOfThreeItems.length = 10 // error!
 ```
 
-### Lazy stored Property(지연 저장 프로퍼티)
+## Lazy stored Property(지연 저장 프로퍼티)
 1. 변수가 사용된 이후에 저장되지 않는 프로퍼티
 2. 값이 사용되기 전까지는 계산되지 않음.
 3. lazy 키워드 사용
@@ -242,7 +240,7 @@ print(manager.importer.filename)
 // "data.txt" 파일을 출력합니다.
 ```
 
-### Computed Property(연산 프로퍼티)
+## Computed Property(연산 프로퍼티)
 1. 특정 연산을 통해 필요할 때 연산을 통해 값 리턴
 2. 클래스, 구조체, 열거형 모두 사용 가능
 3. var로 선언
@@ -284,7 +282,7 @@ point.oppositePoint = Point(x: 10, y: 10)
 print(point) // Point(x: -10, y: -10)
 ```
 
-### Type Property(타입 프로퍼티)
+## Type Property(타입 프로퍼티)
 1. 인스턴스 생성없이 객체내의 프로퍼티에 접근 가능
 2. 프로퍼티를 타입 자체와 연결하는 것 을 지칭
 3. 타입 프로퍼티는 저장 타입 프로퍼티와 연산 타입 프로퍼티가 있음
@@ -332,7 +330,7 @@ print(SomeStructure.storedTypeProperty) // Prints "Another value."
 print(SomeEnumeration.computedTypeProperty) // Prints "6"
 print(SomeClass.computedTypeProperty) // Prints "27"
 ```
-## Property Observer(프로퍼티 옵저버)
+# Property Observer(프로퍼티 옵저버)
 1. 새값이 설정될 때 해당 이벤트를 감지할 수 있는 옵저버를 제공
 2. 프로퍼티 옵저버는 새 값이 이전 값과 같더라도 항상 호출
 3. 지연 저장 프로퍼티에는 사용 X

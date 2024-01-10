@@ -1,6 +1,4 @@
-# 기본 문법
-
-## 변수와 상수
+# 변수와 상수
 * 변수(variable) : 값 수정 O 
 * 상수(constant) : 값 수정 X 
 
@@ -14,7 +12,7 @@ let str1 = hello
 str1 = bye // 불가능
 ```
 
-## 여러가지 데이터형
+# 여러가지 데이터형
 * 문자열 : String
 * 정수형 : Integer
 * 실수형 : Double
@@ -34,7 +32,7 @@ let message = "\(maximumAge)살도 iOS 개발은 \(difficulty)"
 // "20살도 iOS 개발은 어렵다"
 ```
 
-## 배열과 딕셔너리
+# 배열과 딕셔너리
 스위프트에서는 두 타입 모두 [ ]로 선언
 
 ```
@@ -55,7 +53,7 @@ var emptyArr: [Int] = []
 var emptyDic: [String: Any] = [:]
 ```
 
-## Enum
+# Enum
 서로 관계있는 값들을 모아서 표한하는 것
 
 ```
@@ -114,8 +112,8 @@ print(h264)
 // video("h264")
 ```
 
-## 조건문
-### if
+# 조건문
+## if
 ```
 let age = 10
 if age >= 10 && age < 20{
@@ -126,7 +124,7 @@ if age >= 10 && age < 20{
 // 10대
 ```
 
-### switch
+## switch
 ```
 enum Weather {
     case sun
@@ -155,14 +153,14 @@ default:
 // 김민석이 아닙니다.
 ```
 
-### 삼항연산자
+## 삼항연산자
 ```
 let age1 = 10
 let age2 = 20
 let ageSame = age1 == age2 ? "same" : "not same"
 ```
-## 반복문
-### for
+# 반복문
+## for
 ```
 let numRange = 1...10
 // 1부터 10까지
@@ -187,7 +185,7 @@ for (key,value) in language{
 // 한국의 언어 코드는 KR ...
 ```
 
-### for
+## while
 ```
 var num = 1
 while num <= 20{
@@ -208,7 +206,7 @@ while count > 0{
 // 10부터 4까지 출력
 ```
 
-## 옵셔널
+# 옵셔널
 값이 있을 수도 없을 수도 있는 경우
 ```
 var name: String?
@@ -239,7 +237,7 @@ print(char is Character)
 print(char is String)          
 // false
 ```
-## 타입 변환하기
+# 타입 변환하기
 ```
 let number = "10"
 
