@@ -9,8 +9,11 @@
   * [Protocol, Delegation, Extension](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic3.md)
 
 ## Swift - UiKit
+* 공부하며 만든 간단한 앱
+  * [SymbolRoller](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SymbolRoller/SymbolRoller.md)
+  * [SimpleWeather](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SimpleWeather/SimpleWeather.md)
 * FireBase
-  * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/FireBase.md)
+  * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Firebase/FireBase.md)
 * Login
 * 화면 전환
   * [Present 방식](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/ScreenTransPresent.md)

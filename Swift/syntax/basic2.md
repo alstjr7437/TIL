@@ -25,6 +25,19 @@ let random = rollDice()
 print(random)
 // 3
 ```
+### in-out parameter
+- inout parameter는 constant(상수)
+- 값 변경 X
+- inout을 이용하면 변경 가능함, 그리고 원래 오리지널 값도 변경이 됨.
+```
+func makeTriple(num: inout Int){
+    num *= 3
+}
+var num = 8
+makeTriple(num: &num)
+print(num)
+// 24
+```
 
 # 클로저
 클로저 : 이름이 존재하지 않는 함수<br>
