@@ -1,4 +1,5 @@
 # SymbolRoller 프로젝트
+### AutoLayout, ButtonAction 연습
 <img src = "image-1.png" width = "50%">
 
 1. UI 만들기
