@@ -154,9 +154,12 @@ default:
 ```
 
 ## 삼항연산자
+조건 ? true 일때 : false 일때
 ```
 let age1 = 10
 let age2 = 20
+
+//age1이 age2와 같을때 same 다를때 not same
 let ageSame = age1 == age2 ? "same" : "not same"
 ```
 # 반복문

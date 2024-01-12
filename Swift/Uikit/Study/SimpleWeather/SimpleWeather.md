@@ -60,33 +60,5 @@ let weathers = ["cloud.fill", "sun.max.fill", "wind", "cloud.sun.rain.fill"]
 ```
 
 ## 전체 코드
-Storyboard는 위 사진과 같이.
-```
-import UIKit
-
-class WeatherViewController: UIViewController {
-    
-    @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var weatherImgView: UIImageView!
-    @IBOutlet weak var temperatureLabel: UILabel!
-    
-    let cities = ["Seoul", "Tokyo", "LA", "Seattle"]
-    let weathers = ["cloud.fill", "sun.max.fill", "wind", "cloud.sun.rain.fill"]
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    @IBAction func changeButtonTapped(_ sender: Any) {
-        cityLabel.text = cities.randomElement()
-
-        let imageName = weathers.randomElement()
-        weatherImgView.image = UIImage(systemName: imageName!)?.withRenderingMode(.alwaysOriginal)
-        
-        let randomTemp = Int.random(in: 10..<30)
-        temperatureLabel.text = "\(randomTemp)°C"
-        
-        print("도시, 온도, 날씨 이미지 변경하기!")
-    }
-}
-```
+[StoryBoard](https://github.com/alstjr7437/IosFirstStudy/blob/main/SimpleWeather/SimpleWeather/Base.lproj/Main.storyboard)
+[ViewController](https://github.com/alstjr7437/IosFirstStudy/blob/main/SimpleWeather/SimpleWeather/WeatherViewController.swift)

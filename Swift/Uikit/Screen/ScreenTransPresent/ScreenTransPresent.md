@@ -12,7 +12,7 @@ let 이동할뷰컨 = self.storyboard?.instantiateViewController(withIdentifier:
         
 self.present(이동할뷰컨, animated: true, completion: nil)
 ```
-### present 함수 매게변수 부분ㅌ    
+### present 함수 매게변수 부분
 viewControllerPresent : 현재의 뷰컨 내용 위에 보여지는 뷰컨</br>
 flag : 애니메이션 여부</br>
 completion : 이동이 끝난 후 실행될 블록 =nil (리턴값, 파라미터 없음)
@@ -37,7 +37,7 @@ animated : 애니메이션 여부
 ## UIKit에서 UI를 코드로 짜고 화면 전환
 
 ### 새로운 화면 생성
-<img src="./img/image-11.png" width="100%"> 
+<img src="image-11.png" width="100%"> 
 
 새로운 View Controller 만들기 
 New File > Cocoa Touch class > UIViewController > Class에 본인이 원하는 폴더 명
@@ -45,9 +45,9 @@ New File > Cocoa Touch class > UIViewController > Class에 본인이 원하는 �
 --- 
 
 ### 원래의 ViewControlle파일에 present 방식으로 화면 이동 넣기
-<img src="./img/image-12.png" width="100%">     
+<img src="image-12.png" width="100%">     
 code에서 let mainViewController로 MainView를 호출 </br>
 fullscreen을 줘서 전체 화면을 채우게 함
-<img src="./img/video-1.gif" width = "70%>
+<img src="video-1.gif" width = "70%>
 --- 
 # dismiss 사용 예제 추가 예정..

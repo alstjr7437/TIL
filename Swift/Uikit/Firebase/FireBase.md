@@ -7,7 +7,7 @@
 
 번들 ID : Project > Targets > Signing & Capabillities > Bundle Identifier
 
-![번들 ID](./img/image-1.png)
+<img src ="./img/image-1.png">
 
 --- 
 
