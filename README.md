@@ -13,6 +13,7 @@
   * [SymbolRoller](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SymbolRoller/SymbolRoller.md) - AutoLayout, ButtonAction 연습
   * [SimpleWeather](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SimpleWeather/SimpleWeather.md) - AutoLayout, ButtonAction 연습
   * [StockRank](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/StockRank/StockRank.md) - CollectionView 연습
+  * [ChatList](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/ChatList/ChatList.md) - CollectionView 연습
 * FireBase
   * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Firebase/FireBase.md)
 * Login

@@ -1,4 +1,4 @@
-# StockRank 프로젝트
+# ChatList 프로젝트
 ### CollectionView 연습
 <img src = "image.png" width = "50%">
 
@@ -110,7 +110,7 @@ gaurd <꼭 참이어야 하는 조건> else{
 }
 """
 
-### 5. Delegate extension 작성
+### 5. DelegateFlowLayout extension 작성
 CollectionView Cell 크기 수정
 ```
 extension StockRankViewController: UICollectionViewDelegateFlowLayout{
@@ -138,7 +138,7 @@ extension StockRankViewController: UICollectionViewDelegateFlowLayout{
 ```
 
 ### 2. UIComponent 데이터 업로드 코드 작성
-함수를 만들어 데이터 업로드 코드 작성
+함수를 만들어 데이터 업로드 코드 작성<br>
 diff 부분에 삼항 연산자를 통해 변동률이 음수면 TextColor가 파란색으로
 ```
 func configure(_ stock: StockModel){
