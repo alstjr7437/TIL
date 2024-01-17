@@ -2,7 +2,7 @@
 * 변수(variable) : 값 수정 O 
 * 상수(constant) : 값 수정 X 
 
-```
+```swift
 // 변수
 var str = hello
 str = bye // 가능
@@ -17,7 +17,7 @@ str1 = bye // 불가능
 * 정수형 : Integer
 * 실수형 : Double
 * Boolean
-```
+```swift
 let name = "김민석"
 let num = 2000
 let scode = 4.5
@@ -35,7 +35,7 @@ let message = "\(maximumAge)살도 iOS 개발은 \(difficulty)"
 # 배열과 딕셔너리
 스위프트에서는 두 타입 모두 [ ]로 선언
 
-```
+```swift
 // 배열
 let age = [10,20,30]
 let colors = ["red", "green", "blue"]
@@ -56,7 +56,7 @@ var emptyDic: [String: Any] = [:]
 # Enum
 서로 관계있는 값들을 모아서 표한하는 것
 
-```
+```swift
 enum WeekDay: Int {
     case MON
     case TUE
@@ -81,7 +81,7 @@ print(today)
 // index 초과시 nil 에러!
 ```
 
-```
+```swift
 enum Direction: String {
     case up
     case down = "hello"
@@ -97,7 +97,7 @@ dir2.rawValue
 ```
 
 연관값을 가지고 있는 형태로도 표현 가능
-```
+```swift
 enum MediaType {
     case audio(String)
     case video(String)
@@ -114,7 +114,7 @@ print(h264)
 
 # 조건문
 ## if
-```
+```swift
 let age = 10
 if age >= 10 && age < 20{
     print("10대")
@@ -125,7 +125,7 @@ if age >= 10 && age < 20{
 ```
 
 ## switch
-```
+```swift
 enum Weather {
     case sun
     case cloud
@@ -155,7 +155,7 @@ default:
 
 ## 삼항연산자
 조건 ? true 일때 : false 일때
-```
+```swift
 let age1 = 10
 let age2 = 20
 
@@ -164,7 +164,7 @@ let ageSame = age1 == age2 ? "same" : "not same"
 ```
 # 반복문
 ## for
-```
+```swift
 let numRange = 1...10
 // 1부터 10까지
 
@@ -189,7 +189,7 @@ for (key,value) in language{
 ```
 
 ## while
-```
+```swift
 var num = 1
 while num <= 20{
     print(num)
@@ -211,7 +211,7 @@ while count > 0{
 
 # 옵셔널
 값이 있을 수도 없을 수도 있는 경우
-```
+```swift
 var name: String?
 let num: Int? = nil
 // Int는 nil 입력 안하면 error
@@ -232,7 +232,7 @@ print(name ?? "없음")
 
 ## 타입 확인하기
 is, as, is?, as? 은 나중에
-```
+```swift
 let char: Character = "A"
  
 print(char is Character)       
@@ -241,7 +241,7 @@ print(char is String)
 // false
 ```
 # 타입 변환하기
-```
+```swift
 let number = "10"
 
 print(Int(number))
@@ -270,7 +270,7 @@ print(Int(hello))
 가능하면 abs 사용하기
 magnitude는 타입이 바뀔 수도 있어서
 
-```
+```swift
 let integer2 = Int(-15)
 print(type(of: integer2))
 // Int

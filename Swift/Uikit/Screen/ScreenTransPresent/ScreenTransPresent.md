@@ -7,7 +7,7 @@
 > 사용하는곳 : alert 알람, 새로운 이메일 작성하기</br>
 > modalPresentationStyle로 화면 전환이 되는 스타일을 정할 수 있음
 
-```
+```Swift
 let 이동할뷰컨 = self.storyboard?.instantiateViewController(withIdentifier: "뷰컨아이디") else {return}
         
 self.present(이동할뷰컨, animated: true, completion: nil)
@@ -18,13 +18,13 @@ flag : 애니메이션 여부</br>
 completion : 이동이 끝난 후 실행될 블록 =nil (리턴값, 파라미터 없음)
 
 ### present인데 화면을 채우고 싶을때
-```
+```Swift
 이동할뷰컨.modalPresentationStyle = .fullScreen
 ```
 
 ## dismiss 대한 이해 : 돌아가기
 > 뷰컨을 네비게이션으로 부터 pop하고 화면 업데이트
-```
+```Swift
 self.presentingViewController?.dismiss(animated: true)
 ```
 

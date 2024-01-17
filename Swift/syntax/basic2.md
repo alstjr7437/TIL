@@ -5,7 +5,7 @@ func 키워드 사용<br>
 반환값이 있을 경우 -> 이용해 반환 타입 선언하기<br>
 변수나 상수에 할당 가능<br>
 
-```
+```swift
 // 매개변수 주는 함수
 // 함수 주는 dan이라는 매개변수로 구구단 표현
 func printGugu(dan: Int) {
@@ -29,7 +29,7 @@ print(random)
 - inout parameter는 constant(상수)
 - 값 변경 X
 - inout을 이용하면 변경 가능함, 그리고 원래 오리지널 값도 변경이 됨.
-```
+```swift
 func makeTriple(num: inout Int){
     num *= 3
 }
@@ -43,7 +43,7 @@ print(num)
 클로저 : 이름이 존재하지 않는 함수<br>
 in 안에 함수 실행 내용 작성<br>
 배열, 딕셔너리 같은 컬렉션 타입과 함께, filter, map, reduce 메소드 사용시 자주 활용
-```
+```swift
 // 함수
 func call(name:String){
     print("hello, \(name)")
@@ -59,7 +59,7 @@ helloName("Minseok")
 ```
 
 클로저 활용 예시
-```
+```swift
 // filter
 let members = ["Jason", "Greg", "Tiffany"]
 let nameHasT = members.filter { name in
@@ -86,7 +86,7 @@ let totalRevenue = revenues.reduce(0) { partialResult, next in
 # 구조체
 구조체는 원하는 데이터타입 만들때 사용<br>
 struct 사용
-```
+```swift
 // 구조체
 struct Album {
     // 멤버 변수들
@@ -124,7 +124,7 @@ clss 이용해 선언
 3. 클래스는 멤버와이즈 이니셜라이저(생성자)를 기본으로 안만들어줌.
 > <b>생성자</b> : 클래스 또는 구조체 생성할때 사용하는 특별한 함수(init 선언)
 
-```
+```swift
 class Employee {
     var name: String
     var hours: Int
@@ -203,7 +203,7 @@ class, struct, 열거형에서 소속된 변수 및 속성을 불러오는 개�
 1. 객체의 값(속성)을 저장하고 있는 기본적인 프로퍼티
 2. 객체가 생성이 되면 자동적으로 초기화
 3. 열거형(Enum)에는 지원 X
-```
+```swift
 class FixedLengthRange {
    var firstValue: Int
    let length: Int
@@ -226,7 +226,7 @@ rangeOfThreeItems.length = 10 // error!
 3. lazy 키워드 사용
 4. let 상수는 불가
 5. lazy 프로퍼티가 초기화 되지 않은 상태에서 여러 쓰레드가 동시에 이 lazy프로퍼티에 액세스 한다면, 이 프로퍼티가 단 한번만 초기화 된다는 것을 보장할 수 없음
-```
+```swift
 class DataImporter {
      /*
          DataImporter는 외부 파일에서 데이터를 가져오는 클래스입니다.
@@ -261,7 +261,7 @@ print(manager.importer.filename)
 5. 실제 값을 가지고 있는 것이 아니라 getter, setter등을 통해서 값을 설정하고 전달
 6. set만 구현은 불가능
 
-```
+```swift
 struct Point{
     var x: Int
     var y: Int
@@ -300,8 +300,7 @@ print(point) // Point(x: -10, y: -10)
 2. 프로퍼티를 타입 자체와 연결하는 것 을 지칭
 3. 타입 프로퍼티는 저장 타입 프로퍼티와 연산 타입 프로퍼티가 있음
 4. static 키워드를 이용해 정의
-```
-
+```swift
 struct SomeStructure {
        static var storedTypeProperty = "Some value."
        static var computedTypeProperty: Int {
@@ -353,7 +352,7 @@ print(SomeClass.computedTypeProperty) // Prints "27"
 > willSet : 값이 저장되기 바로 직전에 호출됨.<br>
 > didSet : 새 값이 지정되고 난 직후에 호출됨.
 
-```
+```swift
 class StepCounter {
        var totalSteps: Int = 0 {
             willSet(value) {

@@ -1,4 +1,3 @@
-
 # Protocol
 1. 구조체, 클래스, 열거형은 프로토콜을 채택해서 특정 기능을 실행하기 위한 프로토콜의 요구사항을 실제로 구현할 수 있다.
 2. 프로토콜은 정의를 하고 제시를 할 뿐 스스로 기능을 구현하지는 않는다. (조건만 정의)
@@ -11,7 +10,7 @@
 구조체, 클래스, 열거형에 ":"을 붙여 채택하고 ","로 구분하여 명시<br>
 SubClass의 경우 SuperClass를 가장 앞에 명시
 
-```
+```swift
 protocol 프로토콜이름 {
     // 프로토콜 정의
 }
@@ -28,7 +27,7 @@ class SomeClass: SuperClass, AProtocol, AnotherProtocol {
 
 ### Property Requirments
 프로토콜에서는 프로퍼티가 저장프로퍼티, 연산프로퍼티인지 명시하지 않고, <b>이름과 타입 그리고 gettable, settable 한지 명시</b>. (프로퍼티는 <b>항상 var로 선언.</b>)
-```
+```swift
 protocol Student {
     var height: Double { get set }
     var name: String { get }
@@ -38,7 +37,7 @@ protocol Student {
 
 ### 전체 예시
 Coach라는 Protocol을 만들었고 Mourinho라는 구조체에 채택하여 사용하는데 따로 name, currentTeam등이 빠지면 error가 나게 된다! 
-```
+```swift
 protocol Coach {
     var name: String { get set }
     var currentTeam: String { get }
@@ -75,7 +74,7 @@ Delegation이란 클래스나 구조체의 인스턴스에 특정 행위에 대�
 - Delegation은 특정 액션에 응답하거나 해당 소스의 기본 타입을 알 필요 없이 외부 소스에서 데이터를 검색하는 데 사용할 수 있다.
 
 ### 각 필요한 프로토콜과 채택한 class, Dice 타입 
-```
+```swift
 protocol RandomNumberGenerator {
     func random() -> Double
 }
@@ -105,7 +104,7 @@ class Dice {
 ```
 
 ### Delegation 코드
-```
+```swift
 protocol DiceGame {
     var dice: Dice { get }
     func play()
@@ -120,7 +119,7 @@ protocol DiceGameDelegate: AnyObject { // AnyObject로 선언하면 클래스만
 ```
 
 ### DiceGame 프로토콜을 채택하며, DiceGameDelegate에게 진행상황을 알리는 코드이다.
-```
+```swift
 class SnakesAndLadders: DiceGame { // 프로토콜의 조건에 맞추기위해 dice라는 프로퍼티는 gettable하게 구현되어 있고, play()메소드가 구현되어 있다.
     let finalSquare = 25
     let dice = Dice(sides: 6, generator: LinearCongruentialGenerator())
@@ -158,7 +157,7 @@ class SnakesAndLadders: DiceGame { // 프로토콜의 조건에 맞추기위해 
 }
 ```
 ### DiceGameDelegate 프로토콜을 채택한 DiceGameTracker클래스에 대한 코드이다.
-```
+```swift
 class DiceGameTracker: DiceGameDelegate { // 프로토콜의 조건에 맞추기위해 3개의 메소드가 구현되어 있다.
     var numberOfTurns = 0
     func gameDidStart(_ game: DiceGame) {
@@ -179,7 +178,7 @@ class DiceGameTracker: DiceGameDelegate { // 프로토콜의 조건에 맞추기
 ```
 
 ### 실행 결과 
-```
+```swift
 let tracker = DiceGameTracker()
 let game = SnakesAndLadders()
 game.delegate = tracker
@@ -200,19 +199,19 @@ game.play()
 - Extension은 그냥 기능을 덛붙힌다고 보면 됨.(수평적 확장)
 - 기능들을 모음으로써 가독성을 높힐 수 있음.
 - 프로퍼티는 연산 프로퍼티만 사용할 수 있음.
-```
+```swift
 extension SomeType {
     // 구현부
 }
 
 // 새로운 프로토콜 채택
 extension SomeType: SomeProtocol {
-    / 구현부
+    // 구현부
 }
 ```
 
 ### 예시
-```
+```swift
 extension String {
     var length: Int {
         var string: NSString = NSString(string: self)
@@ -223,7 +222,7 @@ extension String {
 
 ### Extension에 조건 추가
 where를 사용하여 특정 조건을 만족시킬때만 기능 확장하거나 프로토콜 채택하도록 제한 가능
-```
+```swift
 extension Array: SomeProtocol where Element: Int {
     // 구현부
 }
@@ -231,7 +230,7 @@ extension Array: SomeProtocol where Element: Int {
 
 ### Extension을 사용한 프로토콜 채택 선언
 타입이 이미 프로토콜의 모든 요구사항을 만족하지만 아직 해당 프로토콜을 채택한다고 명시하지 않은 경우 형식에 빈 Extension을 사용해서 프로토콜을 채택하도록 할 수 있다.
-```
+```swift
 struct Hamster {
     var name: String
     var textualDescription: String {
@@ -243,7 +242,7 @@ extension Hamster: TextRepresentable {}
 
 ## Protocol 상속
 클래스 상속과 같이 프로토콜도 상속할 수 있음. 마찬가지로 ","로 구분
-```
+```swift
 protocol Movable {
     func go(to destination: String)
 }
@@ -272,7 +271,7 @@ print(car.numberOfPassangers)
 
 ## 프로토콜 합성
 동시에 여러 프로토콜을 따르는 타입을 선언할 수 있음.
-```
+```swift
 protocol Named {
   var name: String { get }
 }
@@ -298,7 +297,7 @@ struct Person: Named, Aged {
 - Objective-C를 사용한 방법
 - @objc 키워드를 프로토콜 앞에 붙이고 메소드나 프로퍼티에는 @objc와 optional을 붙임
 - @objc 프로토콜은 클래스만 채택 가능
-```
+```swift
 @objc protocol Person {
   @objc optional var name: String {get}
   @objc optional func speak()
@@ -316,7 +315,7 @@ aiden.notChoice() // name, speak()를 사용하지 않았습니다.
 // Person을 채택하면서 구현은 하나도 하지 않는 클래스를 선언할 수는 있지만 권장하지 않는다.
 ```
 ### @objc의 단점 : 사용자가 정의한 타입을 사용할 수 없다.
-```
+```swift
 //Property cannot be marked @objc 에러 발생
 struct CustomType {
   var property: String = "특수타입"
@@ -328,7 +327,7 @@ struct CustomType {
 ```
 ### 해결 -> NSObject를 상속받아서 -> 클래스만 가능
 
-```
+```swift
 // NSObject를 상속받아야 해서 클래스만 가능
 class CustomType: NSObject {
     var property: String = "특수타입"
@@ -352,7 +351,7 @@ aiden.notChoice()
 ## Extension을 활용한 방법
 @objc의 단점을 해결하는 또다른 방법으로, 프로토콜을 정의한 후 구현하고 싶은 기능만 확장해서 이를 채택하게 하는 방법이있다.
 - 해당 프로토콜을 채택하는 타입들이 기능들을 따로 구현하지 않고, 기능이 구현된 상태로 그대로 받길 원할 때도 사용
-```
+```swift
 struct CustomType {
     var name: String
 }
