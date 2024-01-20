@@ -48,6 +48,8 @@ New File > Cocoa Touch class > UIViewController > Class에 본인이 원하는 �
 <img src="image-12.png" width="100%">     
 code에서 let mainViewController로 MainView를 호출 </br>
 fullscreen을 줘서 전체 화면을 채우게 함
-<img src="video-1.gif" width = "70%>
+
+<img src="https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Screen/ScreenTransPresent/video-1.gif" width = "30%">
+
 --- 
 # dismiss 사용 예제 추가 예정..
