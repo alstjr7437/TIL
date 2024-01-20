@@ -142,11 +142,11 @@ extension SearchViewController: UISearchResultsUpdating{
 # White Color, Label Color
 다크모드일때는 white가 나와야해서 상관 없지만<br>
 다크모드가 아닐때는 white가 아닌 black이 나와야함.<br>
-> **white color**(왼쪽) -> white로 고정되게 설정<br>
-**Label color**(오른쪽) -> 각 다크모드 등 상황에 맞게 색 변경 <br>
+> **white color** -> white로 고정되게 설정<br>
+**Label color** -> 각 다크모드 등 상황에 맞게 색 변경 <br>
 
-<img src = "image-4.png" width = "30%">
-<img src = "image-5.png" width = "30%">
+white color -> <img src = "image-4.png" width = "30%">
+Label color -> <img src = "image-5.png" width = "30%">
 
 <br><br><br>
 # 이미지 가로 세로 비율 설정하기
@@ -165,16 +165,16 @@ extension SearchViewController: UISearchResultsUpdating{
 <br><br><br>
 
 # Aspect fit, Aspect fill, Scale To Fill
-> ### scaleAspectFit(Aspect Fit) <왼쪽>
+> ### scaleAspectFit(Aspect Fit) 
 > **비율을 유지하면서** 뷰의 **사이즈에 맞게 이미지를 늘리는** 옵션 **남는 부분은 투명 처리**
-> ### scaleAspectFill(Aspect Fill) <중간>
+> ### scaleAspectFill(Aspect Fill)
 > **비율을 유지하면서** 뷰의 **이미지를 꽉 채우는** 옵션 **어떤 부분은 잘려 보일 수 있음**(아래 사진과 같이 앵무새 머리가 짤릴 수도)
-> ### scaleToFill(Scale To Fill) <오른쪽>
+> ### scaleToFill(Scale To Fill) 
 > **전체 이미지가 다 나올 수 있도록** 필요하다면 **비율을 깨트리면서** 뷰의 사이즈에 맞게 **이미지를 꽉 채우는** 옵션(아래 사진과 이미지 비율이 이상해짐)
 
-<img src = "image-7.png" width = "30%" title="Aspect Fit">
-<img src = "image-6.png" width = "30%" title="Aspect Fill">
-<img src = "image-8.png" width = "30%" title="Scale To Fill">
+Aspect fit -> <img src = "image-7.png" width = "30%" title="Aspect Fit">
+Aspect Fill -> <img src = "image-6.png" width = "30%" title="Aspect Fill">
+Scale To Fill -> <img src = "image-8.png" width = "30%" title="Scale To Fill">
 
 <br><br><br>
 # 💡 알아간 부분
