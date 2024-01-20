@@ -23,7 +23,7 @@
     - prepareForReuse : 시작시 셋팅
     - configure : Cell 데이터 셋팅
 
-<img src = "InstaSearchView.gif" width = "40%">
+<img src = "https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/InstaSearchView/InstaSearchView.gif" width = "40%">
 
 1. UI 만들기
     - Search Collection View
