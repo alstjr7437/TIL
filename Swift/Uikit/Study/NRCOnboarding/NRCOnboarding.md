@@ -19,8 +19,7 @@
 - CollectionViewCell(Result, Home)
     - configure : Cell 데이터 셋팅
 
-<img src = "image.png" width = "40%">
-<img src = "image-4.png" width = "40%">
+<img src = "image.png" width = "40%"> <img src = "image-4.png" width = "40%">
 
 1. UI 만들기
     - 전체 배경 화면(Auto Layout - View와)
