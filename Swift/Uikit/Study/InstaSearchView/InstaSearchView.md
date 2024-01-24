@@ -2,22 +2,19 @@
 # 사용 기술
 - StoryBoard 
     - CollectionView 사용
-    - Auto Layout 설정
-    - [TabBar](https://developer.apple.com/documentation/uikit/uitabbar) 사용
-    - Navigation 사용
-    - SearchController 사용
+    - Page Comtrol 사용
+    - Collection View - ScrollView 사용
 
-- ViewController(SearchView, Home)
+- ViewController
     - CollectionView : DataSource, Delegate 사용(self로 extension 사용)
     - flowlayout : size automatic 풀어주기
     - extension DataSource : 데이터 셋팅(casting 사용)
     - extension DelegateFlowLayout
-        - sizeForItemAt를 이용해 CGSize 설정(한줄 갯수 설정 등)
+        - sizeForItemAt를 이용해 CGSize 설정(한 Cell당 하나라서 그냥 collectionView.bounds.size  적용)
         - 셀 사이 간격 조절
             - minimumInteritemSpacingForSectionAt : 셀 사이 최소 간격 반환
             - minimumLineSpacingForSectionAt : 행 사이 최소 간격 반환
-    - [SearchController](https://hyesunzzang.tistory.com/51) 사용
-    - UISearchResultsUpdating : 검색바 동작 이벤트 처리
+    - UIScrollViewDelegate : scrollView의 현재 페이지 index 설정
 
 - CollectionViewCell(Result, Home)
     - prepareForReuse : 시작시 셋팅
