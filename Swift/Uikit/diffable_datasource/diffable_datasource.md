@@ -1,5 +1,5 @@
 # Diffable Data Source
-## Diffable Data Source?
+## 💡 Diffable Data Source?
 > TableView(또는 CollectionView)를 그리기 위한 데이터를 관리하고 UI를 업데이트 하는 역할을 한다. <br>Data Source 와 달리 데이터가 달라진 부분을 추적하여 자연스럽게 UI를 업데이트한다.
 
 Data source -> Protocol<br>
@@ -28,12 +28,13 @@ UITableViewDiffableDataSource가 UITableViewDataSource를 conform하고 있음.�
 
 <br>
 
-<img src = "image-1.png" width = "300px"> <img src = "image-2.png" width = "288px">
+<img src = "image-1.png" width = "50%"> <img src = "image-2.png" width = "48%">
 
 위와 같이 Controller가 웹 서비스 요청 받고 UI에게 내가 바뀌었다고 말함
 
-그렇게 진행하다가
-![Alt text](image-3.png)
+그렇게 진행하다가 아래와 같은 에러 발생
+
+<img src = "image-3.png" width ="70%">
 
 ### 위 같은 현상이 일어나는 이유
 DataSource 역할을 하는 Data Controller가 <br>
@@ -55,7 +56,7 @@ UI역시 truth를 가지고 있음<br>
 
 Diffable DataSource에는 performBatchUpdates따위것들이 없습니다.<br>
 Crash나 번거로움, 복잡성, 처리하고 싶지 않은 모든 것들이 없고, apply라는 단일 메소드가 있습니다. 
-![Alt text](image-4.png)
+<img src = "image-4.png" width ="60%">
 
 <br><br><br>
 
@@ -66,24 +67,25 @@ Crash나 번거로움, 복잡성, 처리하고 싶지 않은 모든 것들이 �
 - 섹션 및 아이템에 대해서 Unique ID를 사용
     - Unique + Hashable
     - 구현 예)
-    ![Alt text](image-5.png)
+    <img src = "image-5.png" width ="50%">
 
-<img src = "image-6.png" width ="350px"> <img src = "image-7.png" width ="202px">
+<img src = "image-6.png" width ="61%"> <img src = "image-7.png" width ="35%">
 
 <br><br><br>
 
 # 💡 Layout 이슈
-![Alt text](image-8.png)
-![Alt text](image-9.png)
+<img src = "image-8.png" width ="60%">
+<img src = "image-9.png" width ="60%">
 
 기존의 UICollectionViewFlowLayout -> 대부분의 단순 디자인에서는 좋은 역할<br>
 다만, 점점 복잡한 디자인이 되었을때 -> CustomLayout을 그때마다 구현해줘야햇음,.
 
 ## Compositional Layout 의 등장
-![Alt text](image-10.png)
+<img src = "image-10.png" width ="70%">
 
 코드로 보면
-![Alt text](image-11.png)
+
+<img src = "image-11.png" width ="50%">
 
 <br><br><br>
 
