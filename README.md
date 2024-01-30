@@ -21,7 +21,7 @@
     * [애플 프레임워크 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/AppleFramework/AppleFramework.md) - CollectionView, navigation연습
     * [인스타서 치뷰](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/InstaSearchView/InstaSearchView.md) - TabBar, navigation연습
     * [나이키 온보딩](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/NRCOnboarding/NRCOnboarding.md) - Page Control, CollectionView - Scroll 연습
-    * [명상 컨텐츠 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - Page Control, CollectionView - Scroll 연습
+    * [명상 컨텐츠 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - DiffableDataSource, CompositionalLayout 연습
 
   * FireBase
     * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Firebase/FireBase.md)
