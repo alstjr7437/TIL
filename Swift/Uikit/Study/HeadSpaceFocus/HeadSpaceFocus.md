@@ -1,4 +1,4 @@
-# NRCOnboarding 프로젝트
+# 명상 컨텐츠 프로젝트
 # 사용 기술
 - StoryBoard 
     - CollectionView 사용
