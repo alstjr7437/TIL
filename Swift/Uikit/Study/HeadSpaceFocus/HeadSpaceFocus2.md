@@ -98,6 +98,8 @@ snapshot.appendItems(walkingList, toSection: .walking)
 
 ### 짜잘한 UI 배우기
 
+<b>Layout 함수 부분
+
 LayoutSize 조정
 ```swift
 // 각 글 길이에 맞게 옆에도 맞게 맞출때 estimated
@@ -145,6 +147,7 @@ class QuickFocusHeaderView: UICollectionReusableView {
 ## 3. datasource에 추가하기
 cell과 마찬가지로 header 추가해주기
 ```swift
+// VC에 ViewDidLoad 부분
 datasource.supplementaryViewProvider = { (collectionView, kind, indexPath) in
     guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "QuickFocusHeaderView", for: indexPath) as? QuickFocusHeaderView else {
         return UICollectionReusableView()
@@ -162,6 +165,7 @@ datasource.supplementaryViewProvider = { (collectionView, kind, indexPath) in
 ## 4. Layout도 추가해주기
 Layout 부분에 추가해주기
 ```swift
+// VC에 Layout 함수 부분
 let headerSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(50))
 let header = NSCollectionLayoutBoundarySupplementaryItem(layoutSize: headerSize, elementKind: UICollectionView.elementKindSectionHeader, alignment: .top)
 section.boundarySupplementaryItems = [header]
@@ -177,6 +181,7 @@ Navigation을 통한 여러가지 이동이 생겼을떄<br>
 present 부분으로 이동하던걸 pushViewController로 이동했음.
 
 ```swift
+// FocusVC에 didSelect 부분
 // present(vc, animated: true)
 navigationController?.pushViewController(vc, animated: true)
 ```
@@ -192,6 +197,7 @@ navigationController?.pushViewController(vc, animated: true)
 아래 코드 추가!
 
 ```swift
+// QuickFocusVC에 viewDidLoad 부분
 // 바로 들어가서 Large title이 아닌 바로 네비게이션에 뜨도록 
 // 오른쪽 사진이 아래 코드 넣었을떄
 self.navigationItem.largeTitleDisplayMode = .never
@@ -220,6 +226,7 @@ Navigation -> Navigation Bar -> View -> Tint
 
 ### 3. 이동 동작 부분
 ```swift
+// FocusViewVC 부분
 extension FocusViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let item = items[indexPath.item]
