@@ -98,7 +98,7 @@ snapshot.appendItems(walkingList, toSection: .walking)
 
 ### 짜잘한 UI 배우기
 
-<b>Layout 함수 부분
+<b>Layout 함수 부분</b>
 
 LayoutSize 조정
 ```swift
