@@ -18,7 +18,7 @@
     * [심플 웨더](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SimpleWeather/SimpleWeather.md) - AutoLayout, ButtonAction 연습
     * [주식 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/StockRank/StockRank.md) - CollectionView 연습
     * [채팅 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/ChatList/ChatList.md) - CollectionView 연습
-    * [애플 프레임워크 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/AppleFramework/AppleFramework.md) - CollectionView, navigation연습
+    * [애플 프레임워크 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/AppleFramework/AppleFramework.md) - CollectionView, navigation연습 + DiffableDataSource, Present 화면 이동
     * [인스타서 치뷰](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/InstaSearchView/InstaSearchView.md) - TabBar, navigation연습
     * [나이키 온보딩](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/NRCOnboarding/NRCOnboarding.md) - Page Control, CollectionView - Scroll 연습
     * [명상 컨텐츠 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - DiffableDataSource, CompositionalLayout 연습
