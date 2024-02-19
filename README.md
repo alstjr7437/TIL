@@ -9,32 +9,36 @@
   * [프로젝트 이름 변경](https://velog.io/@alstjr7437/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%B4%EB%A6%84-%EB%B3%80%EA%B2%BD-iOS)
   * [프로젝트 생성](https://velog.io/@alstjr7437/iOS-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
 * 기본 문법
-  * [var, let, list, dict, Enum, if, switch, for, while, Optional](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic.md)
-  * [func, struct, class, Property](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic2.md)
-  * [Protocol, Delegation, Extension](https://github.com/alstjr7437/TIL/blob/main/Swift/syntax/basic3.md)
+  * [var, let, list, dict, Enum, if, switch, for, while, Optional](./Swift/syntax/basic.md)
+  * [func, struct, class, Property](./Swift/syntax/basic2.md)
+  * [Protocol, Delegation, Extension](./Swift/syntax/basic3.md)
 
   ## Swift - UiKit
-  * [Diffable Data Source](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/diffable_datasource/diffable_datasource.md)
+  * [Diffable Data Source](./Swift/Uikit/diffable_datasource/diffable_datasource.md)
   * 공부하며 만든 간단한 앱([강의](https://fastcampus.co.kr/dev_online_iosbible))
-    * [심볼 롤러](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SymbolRoller/SymbolRoller.md) - AutoLayout, ButtonAction 연습
-    * [심플 웨더](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SimpleWeather/SimpleWeather.md) - AutoLayout, ButtonAction 연습
-    * [주식 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/StockRank/StockRank.md) - CollectionView 연습
-    * [채팅 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/ChatList/ChatList.md) - CollectionView 연습
-    * [애플 프레임워크 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/AppleFramework/AppleFramework.md) - CollectionView, navigation연습 + DiffableDataSource, Present 화면 이동
-    * [인스타서 치뷰](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/InstaSearchView/InstaSearchView.md) - TabBar, navigation연습
-    * [나이키 온보딩](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/NRCOnboarding/NRCOnboarding.md) - Page Control, CollectionView - Scroll 연습
-    * [명상 컨텐츠 리스트](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - DiffableDataSource, CompositionalLayout 연습
-    * [스포티파이 구매 뷰](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Study/SpotifyPaywall/SpotifyPaywall.md) - DiffableDataSource, CompositionalLayout 연습, Page Control 연습
+    * [심볼 롤러](./Swift/Uikit/Study/SymbolRoller/SymbolRoller.md) - AutoLayout, ButtonAction 연습
+    * [심플 웨더](./Swift/Uikit/Study/SimpleWeather/SimpleWeather.md) - AutoLayout, ButtonAction 연습
+    * [주식 리스트](./Swift/Uikit/Study/StockRank/StockRank.md) - CollectionView 연습
+    * [채팅 리스트](./Swift/Uikit/Study/ChatList/ChatList.md) - CollectionView 연습
+    * [애플 프레임워크 리스트](./Swift/Uikit/Study/AppleFramework/AppleFramework.md) - CollectionView, navigation연습 + DiffableDataSource, Present 화면 이동
+    * [인스타서 치뷰](./Swift/Uikit/Study/InstaSearchView/InstaSearchView.md) - TabBar, navigation연습
+    * [나이키 온보딩](./Swift/Uikit/Study/NRCOnboarding/NRCOnboarding.md) - Page Control, CollectionView - Scroll 연습
+    * [명상 컨텐츠 리스트](./Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - DiffableDataSource, CompositionalLayout 연습
+    * [스포티파이 구매 뷰](./Swift/Uikit/Study/SpotifyPaywall/SpotifyPaywall.md) - DiffableDataSource, CompositionalLayout 연습, Page Control 연습
 
   * FireBase
-    * [FireBase 연동](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Firebase/FireBase.md)
+    * [FireBase 연동](./Swift/Uikit/Firebase/FireBase.md)
 
   * Login
 
   * 화면 전환
-    * [Present 방식](https://github.com/alstjr7437/TIL/blob/main/Swift/Uikit/Screen/ScreenTransPresent/ScreenTransPresent.md)
+    * [Present 방식](./Swift/Uikit/Screen/ScreenTransPresent/ScreenTransPresent.md)
 
 
+# 알고리즘
+* [문제](https://github.com/alstjr7437/baekjoon)
+* 개념
+  * [그리디](./Algorithm/그리디/Greedy.md)
 
 # Flutter
 * 기본 설정 
