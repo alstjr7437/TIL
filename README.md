@@ -5,13 +5,18 @@
 
 
 # Swift
+
 * 기본 설정
   * [프로젝트 이름 변경](https://velog.io/@alstjr7437/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%B4%EB%A6%84-%EB%B3%80%EA%B2%BD-iOS)
   * [프로젝트 생성](https://velog.io/@alstjr7437/iOS-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
+
 * 기본 문법
   * [var, let, list, dict, Enum, if, switch, for, while, Optional](./Swift/syntax/basic.md)
   * [func, struct, class, Property](./Swift/syntax/basic2.md)
   * [Protocol, Delegation, Extension](./Swift/syntax/basic3.md)
+
+* API 
+  * [Combine](./Swift/API/Combine/Combine.md) - 비동기 처리
 
   ## Swift - UiKit
   * [Diffable Data Source](./Swift/Uikit/diffable_datasource/diffable_datasource.md)
@@ -39,6 +44,8 @@
 * [문제](https://github.com/alstjr7437/baekjoon)
 * 개념
   * [그리디](./Algorithm/그리디/Greedy.md)
+  * [DFS](./Algorithm/DFS_BFS/DFS.md)
+  * [BFS](./Algorithm/DFS_BFS/BFS.md)
 
 # Flutter
 * 기본 설정 
