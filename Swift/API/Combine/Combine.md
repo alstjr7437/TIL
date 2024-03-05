@@ -1,6 +1,4 @@
 # Combine
-- [💡 Async](#💡-async)
-- [📜Combine overview](#📜-combine-overview)
 - [Publisher](#publisher)
 - [subscriber](#subscriber)
 - [Subscription](#subscription)
