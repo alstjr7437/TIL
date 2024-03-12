@@ -13,6 +13,7 @@ Diffable Data source -> Generic
 UITableViewDiffableDataSource가 UITableViewDataSource를 conform하고 있음. 
 
 <br><br><br>
+
 # 💡 사용 이유?
  WWDC_2019 [Adbaces in UI Data Source](https://developer.apple.com/videos/play/wwdc2019/220/)에서 설명
 

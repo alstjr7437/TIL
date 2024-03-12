@@ -1,4 +1,4 @@
-# Combine
+# Combine - [실습](./실습/Combine실습.md)
 - [💡 Async](#💡-async)
 - [📜Combine overview](#📜-combine-overview)
 - [Publisher](#publisher)
@@ -185,8 +185,7 @@ jsonPublisher
 ![alt text](image-8.png)
 
 UI 업데이트 시
-- 올바르지 못한 방법
-**receive(on:)**을 안쓰면 아래와 같이 되지만 apple에서는 추천 안함
+- 올바르지 못한 방법 **receive(on:)** 을 안쓰면 아래와 같이 되지만 apple에서는 추천 안함
 ```swift
 pub.sink {
     DispatchQueue.main.async {

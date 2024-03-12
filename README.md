@@ -17,10 +17,13 @@
 
 * API 
   * [Combine](./Swift/API/Combine/Combine.md) - 비동기 처리
+  * [Combine playGround 실습](./Swift/API/Combine/실습/Combine실습.md) - 기본적인 동작 방식
+  * FireBase
+    * [FireBase 연동](./Swift/Uikit/Firebase/FireBase.md)
 
   ## Swift - UiKit
   * [Diffable Data Source](./Swift/Uikit/diffable_datasource/diffable_datasource.md)
-  * 공부하며 만든 간단한 앱([강의](https://fastcampus.co.kr/dev_online_iosbible))
+  * 공부하며 만든 간단한 앱([강의 링크](https://fastcampus.co.kr/dev_online_iosbible))
     * [심볼 롤러](./Swift/Uikit/Study/SymbolRoller/SymbolRoller.md) - AutoLayout, ButtonAction 연습
     * [심플 웨더](./Swift/Uikit/Study/SimpleWeather/SimpleWeather.md) - AutoLayout, ButtonAction 연습
     * [주식 리스트](./Swift/Uikit/Study/StockRank/StockRank.md) - CollectionView 연습
@@ -31,8 +34,7 @@
     * [명상 컨텐츠 리스트](./Swift/Uikit/Study/HeadSpaceFocus/HeadSpaceFocus.md) - DiffableDataSource, CompositionalLayout 연습
     * [스포티파이 구매 뷰](./Swift/Uikit/Study/SpotifyPaywall/SpotifyPaywall.md) - DiffableDataSource, CompositionalLayout 연습, Page Control 연습
 
-  * FireBase
-    * [FireBase 연동](./Swift/Uikit/Firebase/FireBase.md)
+
 
   * Login
 
@@ -41,7 +43,8 @@
 
 
 # 알고리즘
-* [문제](https://github.com/alstjr7437/baekjoon)
+* [문제](https://github.com/alstjr7437/Algorithm)
+* [스터디](https://github.com/AlgoLeadMe/AlgoLeadMe-6)
 * 개념
   * [그리디](./Algorithm/그리디/Greedy.md)
   * [DFS](./Algorithm/DFS_BFS/DFS.md)
