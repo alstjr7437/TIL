@@ -279,6 +279,6 @@ class FrameworkDetailViewController: UIViewController {
 
 <br><br><br><br><br><br><br>
 
-# 💡 생각
+# 💡생각
 Combine을 이용해서 **비동기 처리 데이터**를 움직이는 부분을 실습을 **많이 할줄** 알았는데
 생각보다 DiffableDatasource에서 데이터가 이동할때 라던가 그런 **로직에서의 부분이 더욱 잘보이는 실습**이었던 것 같다.
