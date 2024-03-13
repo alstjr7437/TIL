@@ -95,7 +95,7 @@ private func applySectionItems(_ items: [Item], to section: Section = .main){
 <br><br><br>
 
 ## Combine을 위해 사용할 subscriptions와 Subject 만들기
-didSelect는 bind에서 input(사용자 인풋 받기)
+didSelect는 bind에서 input(사용자 인풋 받기)<br>
 items는 bind에서 output(data,state 변경에 따른 UI 업데이트 부분)
 
 currentValue -> 초기값 있는
@@ -114,7 +114,7 @@ var subscriptions = Set<AnyCancellable>()
 ## bind 함수를 통해 Combine으로
 Collection View Data를 설정해주는 부분
 
-didSelect는 아이템 클릭시 처리
+didSelect는 아이템 클릭시 처리<br>
 items는 세팅 되었을때 컬렉션뷰 업데이트
 ```swift
 private func bind(){
@@ -153,8 +153,8 @@ private func applySectionItems(_ items: [Item], to section: Section = .main){
 ## 정리
 달라진 부분 : 데이터 처리 부분을 다르게 해줌, viewDidLoad에 보기 불편한 부분이 없어짐
 
-Presentation, Layout의 부분을 함수화 시키고 바꿔줌
-Data부분을 Combine으로 변경을 하고
+Presentation, Layout의 부분을 함수화 시키고 바꿔줌<br>
+Data부분을 Combine으로 변경을 하고<br>
 input 로직과 output로직을 보기 쉽게 변경함.
 
 최종 viewDidLoad
@@ -281,4 +281,5 @@ class FrameworkDetailViewController: UIViewController {
 
 # 생각
 Combine을 이용해서 **비동기 처리 데이터**를 움직이는 부분을 실습을 **많이 할줄** 알았는데
+
 생각보다 DiffableDatasource에서 데이터가 이동할때 라던가 그런 **로직에서의 부분이 더욱 잘보이는 실습**이었던 것 같다.
