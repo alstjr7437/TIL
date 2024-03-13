@@ -1,4 +1,4 @@
-# AppleFramework 프로젝트
+# AppleFramework 프로젝트 - [Combine](../../../API/Combine/실습/Combinme실습2.md)결합 코드
 # 사용 기술
 - StoryBoard 
     - CollectionView 사용
