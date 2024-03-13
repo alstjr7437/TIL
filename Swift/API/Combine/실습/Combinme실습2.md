@@ -4,7 +4,7 @@
     - Presebtation, layout [함수화](#presentation-layout-함수화-하기)
     - data [함수화](#data를-함수화)
     - [combine 변수 만들기](#combine을-위해-사용할-subscriptions와-subject-만들기)
-    - [bine 이용하기](#bind-함수를-통해-combine으로)
+    - [bind 이용하기](#bind-함수를-통해-combine으로)
     - [정리](#정리)
 - [디테일 리스트 뷰](#디테일-리스트-뷰-업데이트-⬆️)
     - [수정 전](#수정-전-전체-코드)
